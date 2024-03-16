@@ -23,7 +23,8 @@ li::selection {
     color: rgb(225, 98, 52);
 }
 
-body *::selection {
+h1::selection,
+h2::selection {
     color: rgb(79, 107, 243);
 }
 
