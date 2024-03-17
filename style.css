@@ -38,8 +38,29 @@ img {
     border-radius: 24px;
 }
 
+#foodTitle {
+    --padding: 0.5rem;
+    --font-size: 1rem;
+    font-size: var(--font-size);
+    width: fit-content;
+    position: relative;
+    color: rgb(225, 98, 52);
+    text-shadow: 0px 4px 0.25rem black;
+    background: rgba(79, 106, 243, 0.794);
+    border-radius: 1rem;
+    padding: var(--padding);
+    outline: 2px solid rgb(217, 217, 217);
+    left: 50%;
+    text-align: left;
+    transform: translateX(-50%);
+    /* font-size is 1 rem, padding is 0.5 rem on each side*/
+    bottom: calc(var(--font-size) + var(--padding) * 4 + 1rem);
+    box-shadow: 0px 4px 4px #0000005F;
+}
+
 #foodDiv {
-    width: 50%;
+    width: 100vw;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     gap: 1rem;

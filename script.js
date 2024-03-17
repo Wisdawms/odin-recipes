@@ -14,5 +14,5 @@ const foods = [{
 foods.map((food) => {
     foodDiv.innerHTML += `<div class="foodItem" id="${food.name}">
     <a href="recipes/${food.name}.html"><img src="${food.imageURL}"></a>
-    </div>`;
+    <p id="foodTitle">${food.name}</p></div>`;
 });
