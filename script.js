@@ -1,4 +1,4 @@
-const foodDiv = document.querySelector('#foodDiv');
+const foodContainer = document.querySelector('#foodContainer');
 
 const foods = [{
     'name': 'lasagna',
@@ -12,7 +12,7 @@ const foods = [{
 ];
 
 foods.map((food) => {
-    foodDiv.innerHTML += `<div class="foodItem" id="${food.name}">
+    foodContainer.innerHTML += `<div class="foodItem" id="${food.name}">
     <a href="recipes/${food.name}.html"><img src="${food.imageURL}"></a>
-    <p id="foodTitle">${food.name}</p></div>`;
+    <p class="foodTitle">${food.name}</p></div>`;
 });

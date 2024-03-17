@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.2 (2024-03-17)
+
+
+### Features
+
+* added titles to each recipe card ([214a2f3](https://github.com/Wisdawms/odin-recipes/commit/214a2f3a534414cfbe126998f4ced00339cad88c))
+
 ### 0.0.1 (2024-03-16)
 
 
